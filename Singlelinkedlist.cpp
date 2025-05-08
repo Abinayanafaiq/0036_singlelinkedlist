@@ -128,3 +128,14 @@ private:
             cin >> ch;
             switch (ch)
             {
+                case '1':
+                mhs.addNode();
+                break;
+
+            case '2':
+                if (mhs.listEmpty())
+                {
+                    cout << endl
+                         << "List Kosong" << endl;
+                    break;
+                }
