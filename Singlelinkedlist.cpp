@@ -117,3 +117,14 @@ private:
 
         do
         {
+            cout << "Menu" << endl;
+            cout << "1. Menambah data kedalam list" << endl;
+            cout << "2. Menghapus data dari dalam list" << endl;
+            cout << "3. Menampilkan semua data didalam list" << endl;
+            cout << "4. Mencari data dalam list" << endl;
+            cout << "5. Keluar" << endl;
+            cout << endl;
+            cout << "Masukkan pilihan (1-5): ";
+            cin >> ch;
+            switch (ch)
+            {
