@@ -9,3 +9,8 @@ public:
     int noMhs;
     Node *next;
 };
+
+class LinkedList
+{
+private:
+    Node *START;
